@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     }
     
     fileprivate func getForecast() {
-        OpenWeatherMap.getDailyForecast(cnt: 16, cityID: "703448") {  [weak self] (response) in
+        OpenWeatherMap.getDailyForecast(cityID: "703448", cnt: 16) {  [weak self] (response) in
             DispatchQueue.main.async() {
                 switch response {
                 case .success(let forecast):

@@ -23,7 +23,7 @@ class YalantisTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let e = expectation(description: "Alamofire")
-        OpenWeatherMap.getDailyForecast(cnt: 14, cityID: "703448") { response in
+        OpenWeatherMap.getDailyForecast(cityID: "703448", cnt: 16) { response in
             switch response {
             case .success(let forecast):
                 XCTAssertNotNil(forecast, "Expected non-nil string")
