@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "description"; ObjectID = "82j-LK-pnm"; */
+"82j-LK-pnm.text" = "description";
+
+/* Class = "UILabel"; text = "Temp"; ObjectID = "N3e-nO-Gmm"; */
+"N3e-nO-Gmm.text" = "Temp";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Qrd-BV-3LB"; */
+"Qrd-BV-3LB.text" = "Date";
+
+/* Class = "UILabel"; text = "City name"; ObjectID = "qsM-ut-PEI"; */
+"qsM-ut-PEI.text" = "City name";
