@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Yalantis
 //
-//  Created by Valentyn Mialin on 10/11/18.
+//  Created by Valentyn Mialin on 10/12/18.
 //  Copyright © 2018 Valentyn Mialin. All rights reserved.
 //
 

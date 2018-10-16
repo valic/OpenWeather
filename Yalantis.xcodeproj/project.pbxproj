@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B113B5FA216FB75600E70586 /* ForecastViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B113B5F9216FB75600E70586 /* ForecastViewCell.swift */; };
+		B154F86E2170995A009C07F6 /* OpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154F86D2170995A009C07F6 /* OpenWeatherMap.swift */; };
+		B15A413B2171ED6A0059C56D /* YalantisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A413A2171ED6A0059C56D /* YalantisTests.swift */; };
+		B15A41422171EEDE0059C56D /* OpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154F86D2170995A009C07F6 /* OpenWeatherMap.swift */; };
+		B15A41442171F2060059C56D /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FECBCE216F96EE006AC572 /* Forecast.swift */; };
+		B15A41462171F52F0059C56D /* ForecastObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A41452171F52F0059C56D /* ForecastObject.swift */; };
 		B1FECBBD216F8C14006AC572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FECBBC216F8C14006AC572 /* AppDelegate.swift */; };
 		B1FECBBF216F8C14006AC572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FECBBE216F8C14006AC572 /* ViewController.swift */; };
 		B1FECBC2216F8C14006AC572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FECBC0216F8C14006AC572 /* Main.storyboard */; };
 		B1FECBC4216F8C1A006AC572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FECBC3216F8C1A006AC572 /* Assets.xcassets */; };
 		B1FECBC7216F8C1A006AC572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FECBC5216F8C1A006AC572 /* LaunchScreen.storyboard */; };
+		B1FECBCF216F96EE006AC572 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FECBCE216F96EE006AC572 /* Forecast.swift */; };
+		D3E01E345A6404E0F3BC6391 /* Pods_Yalantis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894EBF5FF19E0E1A0F7FAD0B /* Pods_Yalantis.framework */; };
+		EB959381C92221EFE7CD4C68 /* libPods-YalantisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC78B8B34F6FCAC97E43EBA0 /* libPods-YalantisTests.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B15A413D2171ED6A0059C56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1FECBB1216F8C14006AC572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FECBB8216F8C14006AC572;
+			remoteInfo = Yalantis;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0752063E0C2736B895ED900C /* Pods-YalantisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YalantisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YalantisTests/Pods-YalantisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51674E2ED27F1183137886DB /* Pods-Yalantis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yalantis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yalantis/Pods-Yalantis.release.xcconfig"; sourceTree = "<group>"; };
+		6CB16B5BA73271EAEBF6EBDD /* Pods-YalantisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YalantisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YalantisTests/Pods-YalantisTests.release.xcconfig"; sourceTree = "<group>"; };
+		894EBF5FF19E0E1A0F7FAD0B /* Pods_Yalantis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yalantis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B113B5F9216FB75600E70586 /* ForecastViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewCell.swift; sourceTree = "<group>"; };
+		B154F86D2170995A009C07F6 /* OpenWeatherMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMap.swift; sourceTree = "<group>"; };
+		B15A41382171ED690059C56D /* YalantisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YalantisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15A413A2171ED6A0059C56D /* YalantisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YalantisTests.swift; sourceTree = "<group>"; };
+		B15A413C2171ED6A0059C56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15A41452171F52F0059C56D /* ForecastObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastObject.swift; sourceTree = "<group>"; };
 		B1FECBB9216F8C14006AC572 /* Yalantis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yalantis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1FECBBC216F8C14006AC572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1FECBBE216F8C14006AC572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +51,93 @@
 		B1FECBC3216F8C1A006AC572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FECBC6216F8C1A006AC572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FECBC8216F8C1A006AC572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FECBCE216F96EE006AC572 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		CE6ED1A5DB863DA93A196D24 /* Pods-Yalantis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yalantis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yalantis/Pods-Yalantis.debug.xcconfig"; sourceTree = "<group>"; };
+		FC78B8B34F6FCAC97E43EBA0 /* libPods-YalantisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YalantisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B15A41352171ED690059C56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB959381C92221EFE7CD4C68 /* libPods-YalantisTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1FECBB6216F8C14006AC572 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E01E345A6404E0F3BC6391 /* Pods_Yalantis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEA7BB367B19980DBDF55652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				894EBF5FF19E0E1A0F7FAD0B /* Pods_Yalantis.framework */,
+				FC78B8B34F6FCAC97E43EBA0 /* libPods-YalantisTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B15A41392171ED6A0059C56D /* YalantisTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15A413A2171ED6A0059C56D /* YalantisTests.swift */,
+				B15A413C2171ED6A0059C56D /* Info.plist */,
+			);
+			path = YalantisTests;
+			sourceTree = "<group>";
+		};
+		B15A41472175E0CB0059C56D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1FECBBE216F8C14006AC572 /* ViewController.swift */,
+				B1FECBC0216F8C14006AC572 /* Main.storyboard */,
+				B1FECBC5216F8C1A006AC572 /* LaunchScreen.storyboard */,
+				B15A41482175E1000059C56D /* UICollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B15A41482175E1000059C56D /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B113B5F9216FB75600E70586 /* ForecastViewCell.swift */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B15A41492175E1310059C56D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1FECBCE216F96EE006AC572 /* Forecast.swift */,
+				B15A41452171F52F0059C56D /* ForecastObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B15A414A2175E15A0059C56D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B154F86D2170995A009C07F6 /* OpenWeatherMap.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B1FECBB0216F8C14006AC572 = {
 			isa = PBXGroup;
 			children = (
 				B1FECBBB216F8C14006AC572 /* Yalantis */,
+				B15A41392171ED6A0059C56D /* YalantisTests */,
 				B1FECBBA216F8C14006AC572 /* Products */,
+				C01E8FD65ADDA551A269E27D /* Pods */,
+				AEA7BB367B19980DBDF55652 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B1FECBB9216F8C14006AC572 /* Yalantis.app */,
+				B15A41382171ED690059C56D /* YalantisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,25 +154,57 @@
 			isa = PBXGroup;
 			children = (
 				B1FECBBC216F8C14006AC572 /* AppDelegate.swift */,
-				B1FECBBE216F8C14006AC572 /* ViewController.swift */,
-				B1FECBC0216F8C14006AC572 /* Main.storyboard */,
+				B15A41472175E0CB0059C56D /* View */,
+				B15A41492175E1310059C56D /* Model */,
+				B15A414A2175E15A0059C56D /* Services */,
 				B1FECBC3216F8C1A006AC572 /* Assets.xcassets */,
-				B1FECBC5216F8C1A006AC572 /* LaunchScreen.storyboard */,
 				B1FECBC8216F8C1A006AC572 /* Info.plist */,
 			);
 			path = Yalantis;
 			sourceTree = "<group>";
 		};
+		C01E8FD65ADDA551A269E27D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE6ED1A5DB863DA93A196D24 /* Pods-Yalantis.debug.xcconfig */,
+				51674E2ED27F1183137886DB /* Pods-Yalantis.release.xcconfig */,
+				0752063E0C2736B895ED900C /* Pods-YalantisTests.debug.xcconfig */,
+				6CB16B5BA73271EAEBF6EBDD /* Pods-YalantisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B15A41372171ED690059C56D /* YalantisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15A41412171ED6A0059C56D /* Build configuration list for PBXNativeTarget "YalantisTests" */;
+			buildPhases = (
+				7822BF2A3F82E1B93515244E /* [CP] Check Pods Manifest.lock */,
+				B15A41342171ED690059C56D /* Sources */,
+				B15A41352171ED690059C56D /* Frameworks */,
+				B15A41362171ED690059C56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15A413E2171ED6A0059C56D /* PBXTargetDependency */,
+			);
+			name = YalantisTests;
+			productName = YalantisTests;
+			productReference = B15A41382171ED690059C56D /* YalantisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B1FECBB8216F8C14006AC572 /* Yalantis */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1FECBCB216F8C1A006AC572 /* Build configuration list for PBXNativeTarget "Yalantis" */;
 			buildPhases = (
+				54F54D727D7BD2D0DEB6BE6F /* [CP] Check Pods Manifest.lock */,
 				B1FECBB5216F8C14006AC572 /* Sources */,
 				B1FECBB6216F8C14006AC572 /* Frameworks */,
 				B1FECBB7216F8C14006AC572 /* Resources */,
+				4F78E8F2EA52CF243F77633A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +225,10 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Valentyn Mialin";
 				TargetAttributes = {
+					B15A41372171ED690059C56D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B1FECBB8216F8C14006AC572;
+					};
 					B1FECBB8216F8C14006AC572 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -113,11 +248,19 @@
 			projectRoot = "";
 			targets = (
 				B1FECBB8216F8C14006AC572 /* Yalantis */,
+				B15A41372171ED690059C56D /* YalantisTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B15A41362171ED690059C56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1FECBB7216F8C14006AC572 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,17 +273,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F78E8F2EA52CF243F77633A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yalantis/Pods-Yalantis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yalantis/Pods-Yalantis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F54D727D7BD2D0DEB6BE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yalantis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7822BF2A3F82E1B93515244E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YalantisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B15A41342171ED690059C56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A413B2171ED6A0059C56D /* YalantisTests.swift in Sources */,
+				B15A41442171F2060059C56D /* Forecast.swift in Sources */,
+				B15A41422171EEDE0059C56D /* OpenWeatherMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1FECBB5216F8C14006AC572 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B154F86E2170995A009C07F6 /* OpenWeatherMap.swift in Sources */,
 				B1FECBBF216F8C14006AC572 /* ViewController.swift in Sources */,
+				B1FECBCF216F96EE006AC572 /* Forecast.swift in Sources */,
+				B15A41462171F52F0059C56D /* ForecastObject.swift in Sources */,
 				B1FECBBD216F8C14006AC572 /* AppDelegate.swift in Sources */,
+				B113B5FA216FB75600E70586 /* ForecastViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15A413E2171ED6A0059C56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FECBB8216F8C14006AC572 /* Yalantis */;
+			targetProxy = B15A413D2171ED6A0059C56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B1FECBC0216F8C14006AC572 /* Main.storyboard */ = {
@@ -162,6 +392,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B15A413F2171ED6A0059C56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0752063E0C2736B895ED900C /* Pods-YalantisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6RU8K5R5C;
+				INFOPLIST_FILE = YalantisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myalin.YalantisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yalantis.app/Yalantis";
+			};
+			name = Debug;
+		};
+		B15A41402171ED6A0059C56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB16B5BA73271EAEBF6EBDD /* Pods-YalantisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6RU8K5R5C;
+				INFOPLIST_FILE = YalantisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myalin.YalantisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yalantis.app/Yalantis";
+			};
+			name = Release;
+		};
 		B1FECBC9216F8C1A006AC572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +552,7 @@
 		};
 		B1FECBCC216F8C1A006AC572 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6ED1A5DB863DA93A196D24 /* Pods-Yalantis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +571,7 @@
 		};
 		B1FECBCD216F8C1A006AC572 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51674E2ED27F1183137886DB /* Pods-Yalantis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +591,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B15A41412171ED6A0059C56D /* Build configuration list for PBXNativeTarget "YalantisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15A413F2171ED6A0059C56D /* Debug */,
+				B15A41402171ED6A0059C56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B1FECBB4216F8C14006AC572 /* Build configuration list for PBXProject "Yalantis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
